@@ -17,7 +17,7 @@
     <section v-if="page === 'home'" class="hero" :style="heroStyle">
       <div class="overlay"></div>
       <div class="hero-content">
-        <h1>Say Hello To Your New Buddy</h1>
+        <h1>Say Hello To Your New Buddy , Something</h1>
       </div>
     </section>
     <section v-else-if="page === 'random'" class="random-section">
