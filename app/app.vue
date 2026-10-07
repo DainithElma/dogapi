@@ -10,7 +10,7 @@
           :class="{ active: page === item.key }"
           @click.prevent="goTo(item.key)"
         >
-          {{ item.label }}
+          {{ item.label }} Wahala
         </a>
       </div>
     </nav>
